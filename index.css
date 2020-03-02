@@ -36,14 +36,14 @@
   
 .tagline {
     position: absolute;
-    top: 250px;
-    left:750px;
+    top: 15.625rem;
+    left:46.875rem;
     
 }
 .homepage {
     background-image: url('http://www.hdcarwallpapers.com/walls/lamborghini_terzo_millennio_ev_supercar_4k_3-HD.jpg');
-    height: 930px;
-    width: 1900px;
+    height: 58.125rem;
+    width: 118.75rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -56,9 +56,7 @@
   background-repeat: no-repeat;
 } */
 
-h3 {
-  text-align: center;
-}
+
 .brandtext {
   position: absolute;
   box-sizing: border-box;
