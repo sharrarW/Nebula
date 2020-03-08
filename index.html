@@ -5,17 +5,17 @@
             <title>Nebula Zero</title>
 
             <div class="tagline">
-                <h1> Nebula Zero </h1>
-                <h2> Faster than the speed of light.</h2>
+                <h1> N E B U L A &ensp; Z E R 0 </h1>
+                <h2> GO ABOVE AND BEYOND</h2>
             </div>
     </head>
 
     <body>
         <div class="homepage">
                 <div class="topnav">
-                    <a href="#aboutbrand">About our brand</a>
-                    <a href="#aboutcar">About the Car</a>
-                    <a href="#buycar">Buy it Now</a>
+                    <a href="#aboutbrand">Jump In</a>
+                    <a href="contact.html" target="_blank">Contact Us</a>
+                    <!-- <a href="#buycar">Buy it Now</a> -->
             </div>
         </div>
         <br>
@@ -51,10 +51,22 @@
         <!-- BUY CAR PAGE -->
         <a id="buycar">
             <div class= "buypage">
-                <h5>BUY THE NEBULA ZERO</h5>
-                <p> Sign up to be on the exclusive purhcasing list.</p>
-                <button> Sign up</button>
+                <div class = "buytext">
+                    <h5>BUY THE NEBULA ZERO</h5>
+                    <div class ="button"><button style="font-size: 25px;" onclick="myFunction() ">Join waiting list</button></div>
+                    <div id="signup"> Sign up to be on the exclusive purhcasing list.</div>
+                </div>
             </div>
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("signup");
+                  if (x.innerHTML === "Sign up to be on the exclusive purhcasing list.") {
+                    x.innerHTML = "You are now on track to purchase the Nebula Zero!";
+                  } else {
+                    x.innerHTML = "Sign up to be on the exclusive purhcasing list.";
+                  }
+                }
+                </script>
 
             <!-- <div id = "nebulafront"><img src="nebulaBack.jpg" style = "height: 58rem; width: 118rem;"></div> -->
         </a>
