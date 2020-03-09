@@ -23,8 +23,10 @@
         <a id="aboutbrand">
             <div class="brandtext" style="height:307px; width: 427px;">
                 <h4>ABOUT US</h4>
-                <p>Nebula has only one mission- to create hypercars that are literally beyond this world.
-                After the worldwide announcement of the Nebula Neo, the Nebula Brand has skyrocketed to superstardom. </p>
+                <ul>
+                <li><p>Nebula has only one mission- to create hypercars that are literally beyond this world.</p></li>
+                <li><p>After the worldwide announcement of the Nebula Neo, the Nebula Brand has skyrocketed to superstardom. </p></li>
+                </ul>
             </div>
 
             <!-- ABOUT THE BRAND PICTURE-->
@@ -37,13 +39,14 @@
         <a id = "aboutcar">
             <div class="cartext" style = "height:307px; width: 427px;">
                 <h4 style>ABOUT THE NEBULA ZERO</h4>
-                <p>Nebula created the Nebula Zero to transform what it means to be a hypercar. Sit in the future of technology,
-                    with automatic body countouring seats that readjust to fit you perfectly. Your phone is automatically paired
-                    as soon as you approach the vehicle, with all information being displayed in the driver's digital gauge cluster. 
-                    Powered by a hybrid motor producing 1310HP and 1180 lb/ft of torque, experience near interstellar speeds
-                    reaching 0-60 in just 1.6 seconds, cementing it's title as the worlds fastest car.  
+                <ol>
+                    <p>Nebula created the Nebula Zero to transform what it means to be a hypercar. 
+                    <li>Sit in the future of technology, with automatic body countouring seats that readjust to fit you perfectly.</li> 
+                    <li>Your phone is automatically paired as soon as you approach the vehicle, with all information being displayed in the driver's digital gauge cluster. </li>
+                    <li>Powered by a hybrid motor producing 1310HP and 1180 lb/ft of torque, experience near interstellar speeds. </li>
             
                 </p>
+                </ol>
             </div>
             <!-- ABOUT THE CAR PICTURE -->
             <div id="nebulaback">
@@ -55,6 +58,8 @@
             <div class= "buypage">
                 <div class = "buytext">
                     <h5>BUY THE NEBULA ZERO</h5>
+                    <input type = "text" placeholder="Your Name" style= "height: 30px;"> 
+                    <input type = "text" placeholder="Your Email" style="height: 30px;">
                     <div class ="button"><button style="font-size: 25px;" onclick="myFunction() ">Join waiting list</button></div>
                     <div id="signup"> Sign up to be on the exclusive purhcasing list.</div>
                 </div>
@@ -65,12 +70,10 @@
                   if (x.innerHTML === "Sign up to be on the exclusive purhcasing list.") {
                     x.innerHTML = "You are now on track to purchase the Nebula Zero!";
                   } else {
-                    x.innerHTML = "Sign up to be on the exclusive purhcasing list.";
+                    x.innerHTML = "You are now on track to purchase the Nebula Zero!";
                   }
                 }
                 </script>
-
-            <!-- <div id = "nebulafront"><img src="nebulaBack.jpg" style = "height: 58rem; width: 118rem;"></div> -->
         </a>
     </body>
 </html>
