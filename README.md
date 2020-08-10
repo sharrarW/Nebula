@@ -16,4 +16,4 @@ Nebula was created from a vision that a car could transform your day, just as th
 
 I created this landing page as a fan of cars and technology, and where we can be in the future if we embrace it. I wanted to specifically create a landing page that would highlight the car itself, it’s features and the company’s history, and let people sign up to learn more. 
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Screenshot 1 of Main Page](/home/wizard/CISC4800/CISC4800 Project 1/Pictures/Screenshot1.png)
